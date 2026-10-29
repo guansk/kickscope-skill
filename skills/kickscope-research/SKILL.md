@@ -1,9 +1,13 @@
 ---
 name: kickscope-research
 description: Connect a local Agent to the KickScope Chrome extension through MCP, or read Kickstarter Story text and image OCR for project research. Use for KickScope setup, connection checks, selected-image recognition, and analysis of its results.
+metadata:
+  version: "0.17.1"
 ---
 
 # KickScope
+
+Skill **0.17.1** · Requires KickScope extension **0.17.0+**. See [skill.json](skill.json) for compatibility and [CHANGELOG.md](CHANGELOG.md) for version history.
 
 Use the KickScope extension on the user's Mac to read public Kickstarter Stories and image text through local MCP. The extension must already be installed in Google Chrome. This package includes the local companion installer; it is independent of Codex and does not install the browser extension.
 

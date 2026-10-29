@@ -1,5 +1,7 @@
 # KickScope Agent Skill
 
+Skill **0.17.1** · Chrome extension **0.17.0+**.
+
 Connect a local Agent to the KickScope Chrome extension through MCP, then read Kickstarter Stories and image text for research. The Chrome extension is maintained and distributed separately.
 
 ## 使用
@@ -17,6 +19,8 @@ Connect a local Agent to the KickScope Chrome extension through MCP, then read K
 Read public Kickstarter Story text and all or selected image OCR with Chrome AI. Query progress, stop/resume jobs and retrieve complete paginated Markdown/JSON. OCR runs in Chrome; results return to your Agent for analysis and may need manual review. A connected bridge does not prove the image model is ready.
 
 ## Versioned installation
+
+The Skill has its own version in `skills/kickscope-research/skill.json` and SKILL.md metadata. Minimum compatible Chrome extension version is recorded separately. See the Skill CHANGELOG for release history.
 
 Use the tag supplied by the extension's setup request. Read `skills/kickscope-research/SKILL.md` and the relevant setup reference. `release.json` lists the SHA-256 of each distributed file; verify the installer before running it. The self-contained `scripts/install.cjs` requires the actual extension ID and defaults to client-neutral mode; no npm package or extension-source checkout is needed.
 

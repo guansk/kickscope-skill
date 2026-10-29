@@ -1,0 +1,8 @@
+{
+  "name": "kickscope-research",
+  "version": "0.17.1",
+  "extension_min_version": "0.17.0",
+  "node_min_major": 18,
+  "platform": "darwin",
+  "transport": "stdio"
+}
