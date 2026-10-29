@@ -1,0 +1,13 @@
+{
+  "version": "0.17.0",
+  "skill": "kickscope-research",
+  "platform": "darwin",
+  "node_min_major": 18,
+  "extension_min_version": "0.17.0",
+  "transport": "stdio",
+  "sha256": {
+    "skills/kickscope-research/SKILL.md": "0109f5f1faf833e2f948c7ea155198416e163c1f0eb4f32a9d62e0be91fe144f",
+    "skills/kickscope-research/references/local-setup.md": "9656def0d8a8bba156055c2fc0d033e3ff3e00b09079b175dd6068d7d48ff1fe",
+    "skills/kickscope-research/scripts/install.cjs": "113aa68e68352e12bdc37ef99415ab4c3a140a588e85aa8196c7c1c47f268c0b"
+  }
+}
